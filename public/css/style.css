@@ -10,7 +10,7 @@ header {
     width: 1920px;
     height: 930px;
     background-image:
-    linear-gradient(to right, rgba(107, 0, 70, 0.52), rgba(1, 1, 84, 0.53)),
+    linear-gradient(to right, rgba(107, 0, 70, 0.52), rgba(0, 0, 0, 0.40)),
     url('../img/pexels-mikhail-nilov-7662473.jpg');
     /* background: url(../img/pexels-mikhail-nilov-7662473.jpg);
     background-color: linear-gradient(rgb(164, 35, 119), rgb(59, 59, 126));
@@ -18,7 +18,7 @@ header {
 }
 
 #containerHeader{
-    margin: 0 385px;
+    margin: 0 355px;
 }
 
 nav {
@@ -57,4 +57,22 @@ nav {
 
 .aBold {
     font-weight:700;
+}
+
+#lienNav button {
+    background-color: rgb(177, 23, 105);
+    border-width: 0;
+    border-radius: 2px;
+    color: white;
+    margin: 5px 30px;
+    padding: 0 20px;
+}
+
+#titreHeader {
+    color: white;
+}
+
+#titreHeader a {
+    color: white;
+    text-decoration: none;
 }
