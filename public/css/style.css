@@ -1,18 +1,38 @@
+
 .cards-section4{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 30px;
 }
 .images2-sect4{
     height: 250px;
+    padding-right: 30px;
 }
 .images1-sect4{
     height: 250px;
+    padding-right: 30px;
 }
 .images3-sect4{
-    height: 250px
+    height: 250px;
+    padding-right: 30px;
 }
 .image4-sect4{
     height: 250px;
     width: 250px;
+    padding-right:30px;
+}
+.para-sect4{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+.titre-sect4{
+    display: flex;
+    justify-content: center;
+}
+.marge-sect4{
+    margin-left: 640px;
+    width: 150px;
 }
