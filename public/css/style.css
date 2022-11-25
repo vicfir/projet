@@ -396,7 +396,6 @@ nav {
     display: flex;
     width: 100%;
     padding-top: 100px;
-    margin: 0 250px;
 }
 
 .txt-mid{
@@ -412,4 +411,5 @@ nav {
 .txt-end{
     padding-left: 100px;
     padding-top: 100px;
+    margin-left: 200px;
 }
