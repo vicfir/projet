@@ -1,0 +1,46 @@
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 1920px;
+    height: 1280px;
+    background-image: url(../img/pexels-mikhail-nilov-7662473.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lienP {
+    display: flex;
+    align-items: center ;
+}
+
+#lienP a {
+    color: white;
+    text-decoration: none;
+}
+
+#lienNav {
+    display: flex;
+}
+
+#lienNav ul {
+    display: flex;   
+    list-style: none;
+}
+
+#lienNav ul li {
+    margin: 0 10px;
+}
+
+#lienNav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.aBold {
+    
+}
