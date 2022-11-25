@@ -1,4 +1,18 @@
 .cards-section4{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+.images2-sect4{
+    height: 250px;
+}
+.images1-sect4{
+    height: 250px;
+}
+.images3-sect4{
+    height: 250px
+}
+.image4-sect4{
+    height: 250px;
+    width: 250px;
 }
