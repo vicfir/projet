@@ -6,6 +6,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 /*------------------------ SECTION3------------------------- */
+/* -----FORMES---- */
 #sect3 {
     height: 1000px;
     display: flex;
@@ -59,7 +60,7 @@ p {
     font-size: 70px;
     margin: 40px 0 0 30px;
 }
-
+/* ----Texte et image ------ */
 #contTextImg {
     display: flex;
     justify-content: center;
