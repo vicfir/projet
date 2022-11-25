@@ -1,14 +1,15 @@
 .section5{
     display: flex;
-    justify-content: center;
+
 
 }
-.images-sect5{
-
+.image-sect5{
+    
 }
 .txt-mid{
-
+    background-color: rgb(226, 195, 185);
 }
 .txt-end{
+    
 
 }
