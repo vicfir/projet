@@ -126,7 +126,7 @@ nav {
     border-radius: 30px;
 }
 
-
+/*----------------------SECTION1----------------------*/
 #sect1{
     background-color: rgb(237, 237, 237);
     position: absolute;
@@ -174,4 +174,40 @@ nav {
     margin-left: 5px;
     margin-right: 5px;
     font-size: x-large;
+}
+
+/--------------------SECTION2--------------------*/
+.titre-sect2{
+    display: flex;
+    justify-content: center;
+}
+.cards-sect2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.img1-sect2{
+    height: 300px;
+    padding-right: 50px;
+}
+.img2-sect2{
+    height: 300px;
+}
+.img3-sect2{
+    height: 300px;
+    padding-right: 50px;
+}
+.img4-sect2{
+    height: 300px;
+
+}
+.ss-titre-sect2{
+    padding-right: 30px;
+}
+.marge{
+    padding-left: 618px;
+    width: 200px;
+    height: 5px;
+    
 }
