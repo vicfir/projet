@@ -14,15 +14,14 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*--------------------- HEADER---------------------------- */
+
 header {
     width: 1920px;
     height: 930px;
     background-image:
     linear-gradient(to right, rgba(107, 0, 70, 0.8), rgba(0, 0, 0, 0.40)),
     url('../img/pexels-mikhail-nilov-7662473.jpg');
-    /* background: url(../img/pexels-mikhail-nilov-7662473.jpg);
-    background-color: linear-gradient(rgb(164, 35, 119), rgb(59, 59, 126));
-    background-blend-mode: multiply; */
 }
 
 #containerHeader{
@@ -105,4 +104,24 @@ nav {
     padding: 18px 20px;
     border: 1px solid white;
     border-radius: 50px;
+}
+
+#social {
+    display: flex;
+    justify-content: end;
+    color: white;
+
+    margin-bottom: 30px;
+}
+
+#social a {
+    color: white;
+}
+
+#social i {
+    font-size: 15px;
+    margin: 10px;
+    padding: 12px 10px 10px 10px;
+    background-color: rgba(98, 98, 98, 0.5);
+    border-radius: 30px;
 }
