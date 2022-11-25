@@ -5,7 +5,9 @@ a {
 header {
     width: 1920px;
     height: 1280px;
-    background-image: url(../img/pexels-mikhail-nilov-7662473.jpg);
+    background: url(../img/pexels-mikhail-nilov-7662473.jpg);
+    background-color: grey;
+    background-blend-mode: multiply;
 }
 
 #containerHeader{
