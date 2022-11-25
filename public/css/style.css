@@ -394,14 +394,16 @@ nav {
 /*------------------------------SECTION5----------------------------------*/
 .section5{
     display: flex;
-
-
+    width: 100%;
+    padding-top: 100px;
+    margin: 0 250px;
 }
 
 .txt-mid{
     background-color: rgb(226, 195, 185);
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    transform: rotate(180deg);
     align-items: center;
     width: 150px;
     padding-top: 100px;
