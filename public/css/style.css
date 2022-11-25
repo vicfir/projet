@@ -21,6 +21,16 @@ p {
     z-index: -1;
 }
 
+#petitCercle {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgba(249, 235, 225, 0.3);
+    border-radius: 40px;
+}
+
 #dotRect2 {
     background-image: radial-gradient(rgba(249, 235, 225, 0.3) 25%, rgba(0,0,0,0)25%);
     background-position: 0 0;
@@ -34,8 +44,10 @@ p {
 
 #pinkCircle{
     position: absolute;
-    top: 0;
+    top: 250px;
+    right: 200px;
     background-color: rgb(177, 23, 105);
+    border-radius: 150px;
     color: white;
     z-index: 1;
     height: 150px;
@@ -43,11 +55,9 @@ p {
 }
 
 #pinkCircle i {
-    z-index: 2;
     color: white;
-    height: 150px;
-    width: 150px;
-    font-size: 10px;
+    font-size: 70px;
+    margin: 40px 0 0 30px;
 }
 
 #contTextImg {
