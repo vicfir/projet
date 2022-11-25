@@ -1,0 +1,26 @@
+.grille-img{
+    display: flex;
+    
+}
+.img-sect1{
+    display: flex;
+}
+.img1-sect1{
+    height: 500px;
+}
+.para-gallery{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-top: 450px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.para-sect1{
+    display: flex;
+    justify-content: center;
+}
+.perso{
+    margin-left: 580px;
+}
+img2
