@@ -6,6 +6,10 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 a {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,6 +17,7 @@ a {
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 /*--------------------- HEADER---------------------------- */
 
@@ -210,4 +215,117 @@ nav {
     width: 200px;
     height: 5px;
     
+}
+
+/*------------------------ SECTION3------------------------- */
+/* -----FORMES---- */
+#sect3 {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+#rectBlue {
+    width: 1920px;
+    height: 800px;
+    background-color: rgb(11, 0, 53);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#petitCercle {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgba(249, 235, 225, 0.3);
+    border-radius: 40px;
+}
+
+#dotRect2 {
+    background-image: radial-gradient(rgba(249, 235, 225, 0.3) 25%, rgba(0,0,0,0)25%);
+    background-position: 0 0;
+    background-size: 18px 18px;
+    height: 220px;
+    width: 300px;
+    position: absolute;
+    right: 100px;
+    top: 60px;
+}
+
+#pinkCircle{
+    position: absolute;
+    top: 250px;
+    right: 200px;
+    background-color: rgb(177, 23, 105);
+    border-radius: 150px;
+    color: white;
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+}
+
+#pinkCircle i {
+    color: white;
+    font-size: 70px;
+    margin: 40px 0 0 30px;
+}
+/* ----Texte et image ------ */
+#contTextImg {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    width: 70%;
+    height: 726px;
+}
+
+#text-sect3 {
+    background-color: white;
+    padding: 80px 80px;
+    position: relative;
+}
+
+.textFlex {
+    display: flex;
+    margin: 50px 0;
+}
+
+.numText {
+    font-size: 70px;
+    padding-top: 10px;
+    margin: 0 50px 0 0;
+}
+
+.textPadding {
+    padding-right: 150px;
+}
+
+#dotRect1 {
+    background-image: radial-gradient(#f9ebe1 25%, rgba(0,0,0,0)25%);
+    background-position: 0 0;
+    background-size: 18px 18px;
+    height: 220px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+#rectNorm {
+    height: 375px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 350px;
+    background-color: #f9ebe1;
+}
+
+#img-sect3 {
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
+    background-image: linear-gradient(to top, rgba(107, 0, 70, 0.7), rgba(15, 0, 113, 0.5)),
+    url('../img/pexels-shahin-kh-4016173-pwtucbalbrq8tmu73im1tf9whod7m3t6qpqi9ceajg.jpg');
 }
