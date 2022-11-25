@@ -1,4 +1,6 @@
 .section5{
+    display: flex;
+    justify-content: center;
 
 }
 .images-sect5{
@@ -8,5 +10,5 @@
 
 }
 .txt-end{
-    
+
 }
