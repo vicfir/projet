@@ -10,17 +10,19 @@
 }
 .img1-sect2{
     height: 300px;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 .img2-sect2{
     height: 300px;
 }
 .img3-sect2{
     height: 300px;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 .img4-sect2{
     height: 300px;
 
 }
-
+.ss-titre-sect2{
+    padding-right: 30px;
+}
