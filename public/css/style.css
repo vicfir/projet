@@ -8,6 +8,10 @@ header {
     background-image: url(../img/pexels-mikhail-nilov-7662473.jpg);
 }
 
+#containerHeader{
+    margin: 0 385px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -42,5 +46,5 @@ nav {
 }
 
 .aBold {
-    
+    font-weight:700;
 }
