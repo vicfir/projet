@@ -8,8 +8,14 @@
 }
 .txt-mid{
     background-color: rgb(226, 195, 185);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    align-items: center;
+    width: 150px;
+
 }
 .txt-end{
+    padding-left: 100px;
     
 
 }
