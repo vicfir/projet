@@ -397,15 +397,14 @@ nav {
 
 
 }
-.image-sect5{
-    
-}
+
 .txt-mid{
     background-color: rgb(226, 195, 185);
     writing-mode: vertical-rl;
     text-orientation: mixed;
     align-items: center;
     width: 150px;
+    padding-top: 100px;
 
 }
 .txt-end{
