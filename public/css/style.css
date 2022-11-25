@@ -1,3 +1,11 @@
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*------------------------ SECTION3------------------------- */
 #sect3 {
     height: 1000px;
     display: flex;
@@ -13,16 +21,82 @@
     z-index: -1;
 }
 
+#dotRect2 {
+    background-image: radial-gradient(rgba(249, 235, 225, 0.3) 25%, rgba(0,0,0,0)25%);
+    background-position: 0 0;
+    background-size: 18px 18px;
+    height: 220px;
+    width: 300px;
+    position: absolute;
+    right: 100px;
+    top: 60px;
+}
+
+#pinkCircle{
+    position: absolute;
+    top: 0;
+    background-color: rgb(177, 23, 105);
+    color: white;
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+}
+
+#pinkCircle i {
+    z-index: 2;
+    color: white;
+    height: 150px;
+    width: 150px;
+    font-size: 10px;
+}
+
 #contTextImg {
     display: flex;
     justify-content: center;
     margin-top: 120px;
-    width: 65%;
+    width: 70%;
     height: 726px;
 }
 
 #text-sect3 {
     background-color: white;
+    padding: 80px 80px;
+    position: relative;
+}
+
+.textFlex {
+    display: flex;
+    margin: 50px 0;
+}
+
+.numText {
+    font-size: 70px;
+    padding-top: 10px;
+    margin: 0 50px 0 0;
+}
+
+.textPadding {
+    padding-right: 150px;
+}
+
+#dotRect1 {
+    background-image: radial-gradient(#f9ebe1 25%, rgba(0,0,0,0)25%);
+    background-position: 0 0;
+    background-size: 18px 18px;
+    height: 220px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+#rectNorm {
+    height: 375px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 350px;
+    background-color: #f9ebe1;
 }
 
 #img-sect3 {
