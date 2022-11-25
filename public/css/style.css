@@ -1,0 +1,9 @@
+.titre-sect2{
+    display: flex;
+    justify-content: center;
+}
+.cards-sect2{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
